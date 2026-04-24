@@ -1,0 +1,14 @@
+Generate a clear vendor risk scorecard summary for the following vendor.
+
+Vendor: {vendor}
+
+Assessment details:
+{assessment}
+
+Your output must be:
+1. A concise risk summary.
+2. Three risk categories with a score from 1 (low) to 5 (high).
+3. One mitigation recommendation for each risk category.
+4. A final recommendation statement for whether the vendor should be approved for onboarding.
+
+Only return the scorecard text; do not include developer commentary.
