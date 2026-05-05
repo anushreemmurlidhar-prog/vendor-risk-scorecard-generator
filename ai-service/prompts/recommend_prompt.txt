@@ -1,0 +1,1 @@
+Based on the risk factors {risk_factors} for vendor {vendor_name}, provide 3 recommendations as a JSON array of objects, each with "action_type", "description", "priority" (high, medium, low).

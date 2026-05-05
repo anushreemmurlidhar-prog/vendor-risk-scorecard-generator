@@ -1,0 +1,1 @@
+You are an expert in vendor risk assessment. Describe the vendor {vendor_name} based on the following risk factors: {risk_factors}. Provide a detailed description.

@@ -1,0 +1,15 @@
+Demo Script for AI Service
+
+1. Start the service: docker-compose up
+
+2. Test /health: curl http://localhost:5000/health
+
+3. Test /describe: curl -X POST http://localhost:5000/describe -H "Content-Type: application/json" -d '{"vendor_name": "ABC Corp", "risk_factors": "Financial instability"}'
+
+Expected: JSON with description and generated_at
+
+4. Test /recommend: Similar, expect recommendations array
+
+5. Test /generate-report: Similar, expect report JSON
+
+Tech explanation: The AI service uses Flask with Groq API for LLaMA-3.3-70b model. It includes rate limiting, input sanitization, and Redis caching for performance.
